@@ -1,6 +1,6 @@
-﻿# Cyber Crime Investigation â€” Cyber Crime Investigation
+﻿# Cyber Crime Investigation
 
-College coursework archive for **Cyber Crime Investigation â€” Cyber Crime Investigation** at Eastern Michigan University.  
+College coursework archive for **Cyber Crime Investigation** at Eastern Michigan University.  
 Milestone papers and final assignment centered on the PlayStation Network breach case study.
 
 **Author:** [Julio Barros](https://github.com/Jkbarros)  
@@ -10,6 +10,7 @@ Milestone papers and final assignment centered on the PlayStation Network breach
 
 | Area | Description |
 |------|-------------|
+| [Archive index](docs/archive-index.md) | Catalog of files in `archive/` with direct links |
 | [`archive/canvas-submissions/`](archive/canvas-submissions/) | Milestones, introduction, final assignment, mitigation examination PDF |
 
 ### Highlights
@@ -31,7 +32,7 @@ flowchart LR
 
 | Course | Link |
 |--------|------|
-| IA 103 â€” Information Security Overview | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
+| IA 103 - Information Security Overview | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
 | college-projects index | [college-projects](https://github.com/Jkbarros/college-projects) |
 
 ## Roadmap
@@ -46,4 +47,4 @@ flowchart LR
 
 ## License
 
-Content Â© Julio Barros. Use at your own risk.
+Content © Julio Barros. Use at your own risk.
