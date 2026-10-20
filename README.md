@@ -1,7 +1,9 @@
 ﻿# Cyber Crime Investigation
 
-College coursework archive for **Cyber Crime Investigation** at Eastern Michigan University.  
-Milestone papers and final assignment centered on the PlayStation Network breach case study.
+![PSN case study progression](docs/demo.gif)
+
+College coursework portfolio for **Cyber Crime Investigation** at Eastern Michigan University.  
+Milestone papers and a final assignment centered on the **2011 PlayStation Network breach** — timeline, impact, investigative angles, and mitigation.
 
 **Author:** [Julio Barros](https://github.com/Jkbarros)  
 **Index:** [college-projects](https://github.com/Jkbarros/college-projects)
@@ -10,13 +12,17 @@ Milestone papers and final assignment centered on the PlayStation Network breach
 
 | Area | Description |
 |------|-------------|
-| [Archive index](docs/archive-index.md) | Catalog of files in `archive/` with direct links |
-| [`archive/canvas-submissions/`](archive/canvas-submissions/) | Milestones, introduction, final assignment, mitigation examination PDF |
+| [Submissions catalog](docs/submissions-catalog.md) | All DOCX/PDF exports as markdown |
+| [Introduction — PSN breach](docs/introduction-playstation-network-breach.md) | Case introduction |
+| [Milestone two](docs/milestone-two.md) · [Milestone three](docs/milestone-three.md) | Progressive research milestones |
+| [Mitigation examination](docs/examination-event-mitigation.md) | Event analysis and control gaps (PDF) |
+| [Final assignment](docs/final-assignment.md) | Capstone write-up |
+| [Archive index](docs/archive-index.md) | Original Canvas files |
 
 ### Highlights
 
-- PlayStation Network breach introduction and milestones
-- Final assignment and event mitigation examination
+- End-to-end **cyber crime case study** on a major public breach
+- Readable markdown on GitHub plus originals under `archive/`
 
 ## Topics covered
 
@@ -24,26 +30,32 @@ Milestone papers and final assignment centered on the PlayStation Network breach
 flowchart LR
   C[Case introduction]
   M[Milestones]
+  E[Mitigation exam]
   F[Final analysis]
-  C --> M --> F
+  C --> M --> E --> F
+```
+
+## Regenerate docs
+
+```bash
+pip install -r requirements.txt
+python scripts/docx_to_markdown.py
+python scripts/build_pdf_docs.py
+python scripts/generate_readme_demo.py
 ```
 
 ## Related repos
 
 | Course | Link |
 |--------|------|
-| IA 103 - Information Security Overview | [information-security-overview](https://github.com/Jkbarros/information-security-overview) |
+| IA 447 - Digital Forensics I | [ia447-digital-forensics-i](https://github.com/Jkbarros/ia447-digital-forensics-i) |
+| IA 455 - Incident Response | [incident-response-ia455](https://github.com/Jkbarros/incident-response-ia455) |
 | college-projects index | [college-projects](https://github.com/Jkbarros/college-projects) |
-
-## Roadmap
-
-- [ ] Convert key submissions to markdown in `docs/` (same pattern as IA 103)
-- [ ] Redact any sensitive identifiers before expanding public docs
 
 ## Notes for readers
 
-- This repo documents **my submitted work** for academic context only.
-- EMU or publisher course materials are not redistributed beyond my own submissions in `archive/`.
+- Academic case analysis only — not legal advice or an official Sony incident report.
+- Canvas duplicate filenames (`-1` copies) are preserved when exports differ.
 
 ## License
 
